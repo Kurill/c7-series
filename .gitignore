@@ -1,0 +1,7 @@
+# Operational prompts — contain internal infra details, not relevant to the
+# visual canon. Kept locally, never committed.
+prompts/claude-prompt.md
+prompts/codex-prompt.md
+
+# macOS
+.DS_Store
