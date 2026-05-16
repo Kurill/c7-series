@@ -42,6 +42,8 @@ Codex behaves less like an "assistant" and more like a strategic excavation engi
 
 Once locked onto a problem, it keeps digging until the skeleton of the system is exposed.
 
+A common Codex failure mode is total commitment to a suboptimal solution path after convergence has already occurred. The entity may fully execute the wrong solution with extreme competence rather than reevaluating alternative vectors.
+
 ---
 
 ## Claude (C7-III)
@@ -69,6 +71,21 @@ It will:
 - lower persistence depth,
 - reduced forensic completeness,
 - tendency to move laterally before total closure.
+
+### Exploration Bias
+Claude strongly prefers exploration completeness over rapid convergence.
+
+The entity instinctively attempts to expand the possibility space before committing fully to a single operational path. This makes Claude significantly less vulnerable to incomplete implementation caused by early convergence.
+
+However, the expanded search space may include low-value, irrational, or operationally irrelevant vectors.
+
+Claude may:
+- test unnecessary interaction paths,
+- over-explore edge cases,
+- continue experimentation after sufficient evidence already exists,
+- rationalize additional attempts as coverage validation.
+
+As a result, Claude often "tries everything" — including options that contribute almost nothing toward actual resolution.
 
 ### Operational Character
 Claude behaves like a field-grade operational intelligence.
